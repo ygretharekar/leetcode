@@ -2,7 +2,7 @@
 
 use std::cmp::Ordering;
 
-pub struct Solution {}
+pub struct Solution4 {}
 
 fn binary_seach_median<T, F>(a: &[T], mut f: F) -> Result<usize, usize>
 where 
@@ -23,7 +23,7 @@ where
     Err(left)
 }
 
-impl Solution {
+impl Solution4 {
     pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
         let (m, n) = (nums1.len(), nums2.len());
 
@@ -96,7 +96,7 @@ mod tests4 {
     #[test]
     fn it_works() {
         assert_eq!(
-            Solution::find_median_sorted_arrays(vec![1], vec![2]),
+            Solution4::find_median_sorted_arrays(vec![1], vec![2]),
             0.0
         );
     }

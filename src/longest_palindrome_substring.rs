@@ -1,8 +1,8 @@
 #![allow(dead_code)]
 
-pub struct Solution {}
+pub struct Solution5 {}
 
-impl Solution {
+impl Solution5 {
     pub fn longest_palindrome(s: String) -> String {
         let st = s.as_bytes();
 
@@ -48,7 +48,7 @@ mod tests5 {
     #[test]
     fn it_works() {
         assert_eq!(
-            Solution::longest_palindrome(String::from("cbbd")),
+            Solution5::longest_palindrome(String::from("cbbd")),
             String::from("bb")
         );
     }

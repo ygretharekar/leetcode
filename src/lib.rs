@@ -1,1 +1,1 @@
-mod zigzag_conversion;
+mod reverse_integer;
